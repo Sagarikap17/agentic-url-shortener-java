@@ -1,0 +1,19 @@
+# Angular
+node_modules/
+dist/
+.angular/
+
+# Java / Maven
+target/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
